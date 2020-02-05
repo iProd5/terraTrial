@@ -10,7 +10,7 @@ resource "aws_vpc" "main" {
   instance_tenancy = "default"
 
 
-#tags can be set for almost any resource in aws
+#tags can be set for almost all resources in aws
   tags = {
     Name = "main"
   }
